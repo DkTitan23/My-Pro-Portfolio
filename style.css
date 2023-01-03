@@ -1,0 +1,419 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    background-color: rgb(133, 202, 219);
+    overflow-x: hidden;
+}
+
+/* Setting the text to be vertically centered in the header. */
+header {
+    margin: 0 auto;
+    padding: 1px 0px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(148, 146, 146);
+    height: 120px;
+}
+
+/* Positioning the h1 in the header and adding a seperate background color. */
+header h1 {
+    padding: 20px 0 20px 120px;
+    font-size: 30px;
+    font-family: 'Zen Dots', cursive;
+    color: black;
+    background-color: rgb(0, 201, 10);
+    width: 225px;
+    height: 70px;
+    text-decoration: none;
+    border-radius:  40px;
+}
+
+/* Positioning the nav to the right side of the header. */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 30px;
+    font-family: 'Zen Dots', cursive;
+}
+header ul {
+    list-style-type: none;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.main-nav a {
+    color: rgb(0, 0, 0);
+}
+
+/* Setting the sizing and positioning of the .subsitle class. */
+.subtitle {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 100px;
+    background-color: rgba(0, 128, 49, 0.411);
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Zen Dots', cursive;
+}
+
+.me-img {
+    margin: 20px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 25%;
+}
+
+/* Setting the content format inside the .aboutme class to a row. */
+.aboutme {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Setting a borrder on the right side of the header text. */
+.aboutme h2 {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    max-width: 100%;
+    margin-left: 50px;
+    padding-right: 10px;
+    border-right: 2px solid rgb(0, 0, 0);
+    font-family: 'Zen Dots', cursive;
+}
+
+.aboutme p {
+    display: flex;
+    align-items: center;
+    font-family: 'Zen Dots', cursive;
+    width: 100%;
+}
+
+/* Setting the height of the .biggest class in the .work-div class to 500px */
+.biggest {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Setting the size and giving the image in the a element a border. */
+.biggest a {
+    margin-top: 0;
+    position: absolute;
+    height: 500px;
+    max-width: 350px;
+    margin-left: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius:  25px;
+}
+
+.biggest img {
+    height: 500px;
+    max-width: 350px;
+}
+
+/* Positioning the text and giving it a background color with a new text color. */
+.biggest div {
+    position: relative;
+    z-index: 5;
+    margin-left: 20px;
+    background-color: rgb(167, 167, 167);
+    color: rgb(0, 0, 0);
+    display: block;
+    border-radius:  25px;
+    font-family: 'Zen Dots', cursive;
+}
+
+.work-div {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.work-div h2 {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    max-width: 100%;
+    margin-left: 50px;
+    padding-right: 19px;
+    border-right: 2px solid rgb(0, 0, 0);
+    height: 500px;
+    margin-top: 27px;
+    font-family: 'Zen Dots', cursive;
+}
+
+/* Positioning the content as a column. */
+.first-row {
+    margin-left: 50px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 0;
+    position: relative;
+    margin-top: 25px;
+}
+
+.second-row {
+    margin-left: 10px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Setting the content in the .contact class to be in a row. */
+.contact {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact h2 {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    max-width: 100%;
+    margin-left: 20px;
+    padding-right: 10px;
+    border-right: 2px solid rgb(0, 0, 0);
+    font-family: 'Zen Dots', cursive;
+}
+
+.contact ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Zen Dots', cursive;
+
+}
+
+.contact li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Spacing and sizing the images */
+.led-img {
+    margin-top: 0;
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    margin-left: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius:  25px;
+}
+
+/* Positioning the text over the image and giving it new style. */
+.led-text {
+    width: 28%;
+    position: relative;
+    z-index: 5;
+    margin-left: 200px;
+    margin-right: 275px;
+    margin-top: 0px;
+    background-color: rgb(167, 167, 167);
+    color: rgb(0, 0, 0);
+    display: block;
+    align-items: flex-start;
+    border-radius:  25px;
+    font-family: 'Zen Dots', cursive;
+}
+
+/* Spacing and sizing the images */
+.calc-img {
+    margin-top: 0px;
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    margin-left: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius:  25px;
+}
+
+/* Positioning the text over the image and giving it new style. */
+.calc-text {
+    width: 28%;
+    position: relative;
+    z-index: 5;
+    margin-left: 200px;
+    margin-right: 275px;
+    background-color: rgb(167, 167, 167);
+    color: rgb(0, 0, 0);
+    display: block;
+    align-items: flex-end;
+    border-radius:  25px;
+    font-family: 'Zen Dots', cursive;
+}
+
+.second-row {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+/* Spacing and sizing the images */
+.pastel-img {
+    margin-top: 0;
+    position: absolute;
+    height: 200px;
+    max-width: 300px;
+    margin-left: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius:  25px;
+}
+
+/* Positioning the text over the image and giving it new style. */
+.pastel-text {
+    width: 45%;
+    position: relative;
+    z-index: 5;
+    margin-left: 20px;
+    margin-right: 250px;
+    margin-top: 0px;
+    background-color: rgb(167, 167, 167);
+    color: rgb(0, 0, 0);
+    display: block;
+    align-items: flex-start;
+    border-radius:  25px;
+    font-family: 'Zen Dots', cursive;
+}
+
+/* Spacing and sizing the images */
+.run-img {
+    margin-top: 0px;
+    position: absolute;
+    height: 200px;
+    max-width: 333px;
+    margin-left: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius:  25px;
+}
+
+/* Positioning the text over the image and giving it new style. */
+.run-text {
+    width: 45%;
+    position: relative;
+    z-index: 5;
+    margin-left: 20px;
+    margin-right: 300px;
+    background-color: rgb(167, 167, 167);
+    color: rgb(0, 0, 0);
+    display: block;
+    align-items: flex-end;
+    border-radius:  25px;
+    font-family: 'Zen Dots', cursive;
+}
+
+/* Allowing you to hover over images and the color changing. */
+.biggest img:hover {
+    opacity: .5;
+}
+
+.first-row img:hover {
+    opacity: .5;
+}
+
+.second-row img:hover {
+    opacity: .5;
+}
+
+/* Scaling website for phone screen size of 768px */
+@media screen and (max-width: 768px) {
+   header h1 {
+        margin-top: 15px;
+        height: 50px;
+    }
+
+    /* Setting content in work-div to be in a column. */
+    .work-div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .work-div h2 {
+        width: 10%;
+        height: 50px;
+        margin-left: 50px;
+        border-bottom: 2px solid purple;
+        border-right: none;
+    }
+
+    .biggest {
+        width: 100%
+    }
+
+    .surf-text {
+        margin-bottom: 10px;
+    }
+
+    .first-row {
+        display: flex;
+        align-items: flex-start;
+        margin-left: -180px;
+        margin-bottom: 50px;
+    }
+
+    .led-img {
+        margin-top: 25px;
+    }
+
+    .led-text {
+        margin-top: 35px;
+    }
+
+    .calc-text {
+        margin-top: 10px;
+    }
+
+    .second-row {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 0;
+    }
+
+    .pastel-text {
+        margin-top: 100px;
+        width: 25%;
+    }
+
+    .run-img {
+        margin-top: 100px;
+    }
+
+    .run-text {
+        margin-top: 200px;
+        width: 25%;
+    }
+
+    /* Content in the ul of the .contact class will be positioned in a column. */
+    .contact ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
