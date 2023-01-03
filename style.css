@@ -124,6 +124,7 @@ header li {
 .biggest img {
     height: 500px;
     max-width: 350px;
+    border-radius: 25px;
 }
 
 /* Positioning the text and giving it a background color with a new text color. */
